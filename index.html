@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corebits Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Corebits Investment Platform</h1>
+        <nav>
+            <a href="#dashboard">Dashboard</a>
+            <a href="#bots">Bots</a>
+            <a href="#transactions">Transactions</a>
+            <a href="#withdrawals">Withdrawals</a>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <h2>Total Balance</h2>
+            <p id="balance">$0.00</p>
+        </section>
+
+        <section class="card">
+            <h3>Performance</h3>
+            <p id="roi">ROI: 0%</p>
+        </section>
+
+        <section class="card">
+            <h3>Bot Allocations</h3>
+            <div id="bots-container"></div>
+        </section>
+
+        <section class="card">
+            <h3>Transactions</h3>
+            <table id="ledger"></table>
+        </section>
+
+        <section class="card">
+            <button id="withdraw">Request Withdrawal</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+

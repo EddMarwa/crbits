@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2F4F4F; /* Dark slate grey */
+    color: #F5F5DC; /* Beige for text */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2F4F4F;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #FFD700; /* Yellow accent */
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #F5F5DC;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #36454F; /* Charcoal for cards */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Flat card shadow */
+    border: 1px solid #FFD700; /* Yellow accent border */
+}
+
+h1, h2, h3 {
+    color: #FFD700; /* Yellow accent for headings */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #556B2F; /* Dark olive green for table borders */
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #556B2F;
+}
+
+button {
+    background-color: #FFD700; /* Yellow accent for buttons */
+    color: #2F4F4F;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #DAA520; /* Darker yellow on hover */
+}
+
